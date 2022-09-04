@@ -1,7 +1,7 @@
 const express = require('express')
 const dataBase = require('./utils/db')
 const app = express()
-const port =process.env.PORT | 5000
+const port =process.env.PORT || 5000
 const cors = require('cors')
 const userRouter = require('./router/v1/User.router')
 
